@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 const nodemailer = require("nodemailer");
 const { google } = require("googleapis");
 const OAuth2 = google.auth.OAuth2;
-const PORTS = 4000 || process.env.PORT;
+const PORTS = process.env.PORT;
 
 const dotenv = require("dotenv");
 const bcrypt = require("bcrypt");
